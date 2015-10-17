@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean name="/HessianService" class="org.jmmo.hessian.HessianServiceExporterAsync">
+        <property name="service" ref="hessianServiceAsync"/>
+        <property name="serviceInterface" value="org.jmmo.hessian.example.server.HessianServiceInterfaceAsync"/>
+    </bean>
+
+    <bean id="hessianServiceAsync" class="org.jmmo.hessian.example.server.HessianServiceInterfaceAsyncImpl"/>
+
+</beans>
