@@ -4,7 +4,7 @@
 
     <groupId>org.jmmo</groupId>
     <artifactId>async-hessian</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Asynchronous Hessian</name>
@@ -22,7 +22,7 @@
     <scm>
         <url>https://github.com/Megaprog/async-hessian</url>
         <connection>scm:git:https://github.com/Megaprog/async-hessian.git</connection>
-        <tag>async-hessian-1.1</tag>
+        <tag>async-hessian-1.0</tag>
     </scm>
 
     <developers>
