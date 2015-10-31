@@ -3,7 +3,7 @@ package org.jmmo.hessian.example.client;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class Launcher implements Runnable {
+public class Client implements Runnable {
 
     public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:org/jmmo/hessian/example/client/client.xml");

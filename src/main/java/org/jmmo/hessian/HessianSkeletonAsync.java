@@ -135,14 +135,14 @@ public class HessianSkeletonAsync extends HessianSkeleton {
 
             out.close();
 
-            return CompletableFuture.completedFuture(null);
+            return CompletableFuture.completedFuture(result);
         }
     }
 
-    private String escapeMessage(String msg)
-    {
-        if (msg == null)
+    private String escapeMessage(String msg) {
+        if (msg == null) {
             return null;
+        }
 
         StringBuilder sb = new StringBuilder();
 

@@ -12,7 +12,7 @@
         <property name="serviceUrl" value="${hessianServiceUrl}"/>
     </bean>
 
-    <bean id="launcher" class="org.jmmo.hessian.example.client.Launcher">
+    <bean id="client" class="org.jmmo.hessian.example.client.Client">
         <property name="hessianService" ref="hessianService"/>
     </bean>
 
