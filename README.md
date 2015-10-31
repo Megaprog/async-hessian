@@ -1,6 +1,6 @@
 # Asynchronous Hessian
 
-The approach to calling [Hessian](http://hessian.caucho.com/) service implementation asynchronously from servlet 3.0 spec.
+The approach to calling [Hessian](http://hessian.caucho.com/) service implementation asynchronously by servlet 3.0 spec.
 
 ## How to get it?
 
