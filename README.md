@@ -10,7 +10,7 @@ You can use it as a maven dependency:
 <dependency>
     <groupId>org.jmmo</groupId>
     <artifactId>async-hessian</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 </dependency>
 ```
 
